@@ -1689,3 +1689,597 @@ ModuleNotFoundError: No module named 'hook'
 [2024-11-25T22:13:17.405+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:13:17.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-25T22:13:17.433+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:13:17.432+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
 [2024-11-25T22:13:17.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.723 seconds
+[2024-11-25T22:13:47.582+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:13:47.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:13:47.588+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:13:47.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:13:48.188+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:13:48.217+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:13:48.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:13:48.241+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:13:48.241+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:13:48.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.689 seconds
+[2024-11-25T22:14:18.747+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:14:18.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:14:18.751+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:14:18.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:14:19.399+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:14:19.430+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:14:19.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:14:19.458+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:14:19.458+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:14:19.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.749 seconds
+[2024-11-25T22:14:49.574+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:14:49.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:14:49.579+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:14:49.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:14:50.464+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:14:50.519+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:14:50.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:14:50.563+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:14:50.562+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:14:50.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 1.053 seconds
+[2024-11-25T22:15:21.714+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:15:21.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:15:21.719+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:15:21.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:15:22.367+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:15:22.398+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:15:22.397+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:15:22.428+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:15:22.428+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:15:22.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.748 seconds
+[2024-11-25T22:15:52.762+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:15:52.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:15:52.769+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:15:52.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:15:53.419+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:15:53.457+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:15:53.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:15:53.486+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:15:53.486+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:15:53.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.761 seconds
+[2024-11-25T22:16:23.778+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:16:23.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:16:23.782+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:16:23.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:16:24.878+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:16:24.939+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:16:24.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:16:25.016+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:16:25.016+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:16:25.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 1.309 seconds
+[2024-11-25T22:16:55.799+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:16:55.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:16:55.805+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:16:55.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:16:56.628+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:16:56.665+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:16:56.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:16:56.698+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:16:56.698+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:16:56.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.937 seconds
+[2024-11-25T22:17:26.858+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:17:26.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:17:26.866+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:17:26.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:17:27.646+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:17:27.680+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:17:27.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:17:27.709+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:17:27.708+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:17:27.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.887 seconds
+[2024-11-25T22:17:58.782+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:17:58.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:17:58.787+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:17:58.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:17:59.391+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:17:59.419+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:17:59.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:17:59.445+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:17:59.445+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:17:59.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.693 seconds
+[2024-11-25T22:18:29.594+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:18:29.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:18:29.598+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:18:29.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:18:30.126+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:18:30.152+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:18:30.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:18:30.177+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:18:30.177+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:18:30.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.611 seconds
+[2024-11-25T22:19:00.689+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:19:00.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:19:00.694+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:19:00.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:19:01.313+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:19:01.343+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:19:01.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:19:01.366+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:19:01.365+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:19:01.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.709 seconds
+[2024-11-25T22:19:31.463+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:19:31.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:19:31.467+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:19:31.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:19:32.104+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:19:32.132+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:19:32.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:19:32.158+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:19:32.157+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:19:32.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.724 seconds
+[2024-11-25T22:20:02.421+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:02.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:20:02.426+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:02.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:02.970+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:02.998+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:02.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:20:03.026+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:03.025+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:20:03.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.641 seconds
+[2024-11-25T22:20:33.408+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:33.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:20:33.413+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:33.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:33.979+0000] {processor.py:925} INFO - DAG(s) 'extract_weather' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:34.009+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:34.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:20:34.036+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:34.035+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:20:34.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.653 seconds
+[2024-11-25T22:20:44.816+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:44.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:20:44.835+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:44.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:44.899+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:20:44.897+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 43
+    city="Moscow",
+    ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-11-25T22:20:44.900+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:20:44.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.186 seconds
+[2024-11-25T22:21:15.630+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:21:15.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:21:15.635+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:21:15.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:21:15.656+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:21:15.655+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 43
+    city="Moscow",
+    ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-11-25T22:21:15.657+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:21:15.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.058 seconds
+[2024-11-25T22:21:33.318+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:21:33.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:21:33.326+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:21:33.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:21:33.370+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:21:33.368+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 43
+    city="Moscow",
+    ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-11-25T22:21:33.371+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:21:33.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.099 seconds
+[2024-11-25T22:22:04.608+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:04.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:22:04.614+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:22:04.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:04.648+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:22:04.647+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 43
+    city="Moscow",
+    ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-11-25T22:22:04.649+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:04.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.079 seconds
+[2024-11-25T22:22:26.734+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:26.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:22:26.737+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:22:26.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:26.759+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:22:26.757+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 36
+    {city="Moscow", file_path="/opt/airflow/data/Moscow_20241126.csv"},
+     ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-11-25T22:22:26.760+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:26.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.059 seconds
+[2024-11-25T22:22:43.247+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:43.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:22:43.250+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:22:43.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:43.296+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:22:43.294+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 36
+    {city="Moscow", file_path="/opt/airflow/data/Moscow_20241126.csv"},
+     ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-11-25T22:22:43.298+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:22:43.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.101 seconds
+[2024-11-25T22:23:14.069+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:14.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:23:14.074+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:23:14.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:14.092+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:23:14.091+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 36
+    {city="Moscow", file_path="/opt/airflow/data/Moscow_20241126.csv"},
+     ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-11-25T22:23:14.093+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:14.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.053 seconds
+[2024-11-25T22:23:28.484+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:28.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:23:28.487+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:23:28.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:29.121+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:23:29.112+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 42, in <module>
+    dag = dag_expand()
+          ^^^^^^^^^^^^
+  File "/opt/airflow/dags/extract_weather.py", line 34, in dag_expand
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:23:29.125+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:23:29.126+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:29.161+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.684 seconds
+[2024-11-25T22:23:55.269+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:55.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:23:55.277+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:23:55.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:56.068+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:23:56.058+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 42, in <module>
+    dag = dag_expand()
+          ^^^^^^^^^^^^
+  File "/opt/airflow/dags/extract_weather.py", line 34, in dag_expand
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:23:56.070+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:23:56.071+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:23:56.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.840 seconds
+[2024-11-25T22:24:26.191+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:24:26.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:24:26.194+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:24:26.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:24:26.770+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:24:26.763+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 42, in <module>
+    dag = dag_expand()
+          ^^^^^^^^^^^^
+  File "/opt/airflow/dags/extract_weather.py", line 34, in dag_expand
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:24:26.773+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:24:26.774+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:24:26.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.609 seconds
+[2024-11-25T22:24:57.060+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:24:57.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:24:57.065+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:24:57.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:24:57.613+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:24:57.605+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 42, in <module>
+    dag = dag_expand()
+          ^^^^^^^^^^^^
+  File "/opt/airflow/dags/extract_weather.py", line 34, in dag_expand
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:24:57.615+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:24:57.616+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:24:57.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.583 seconds
+[2024-11-25T22:25:09.798+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:09.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:25:09.806+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:09.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:10.579+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:10.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 15, in <module>
+    @dag(
+     ^^^
+NameError: name 'dag' is not defined
+[2024-11-25T22:25:10.583+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:10.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.818 seconds
+[2024-11-25T22:25:33.090+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:33.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:25:33.097+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:33.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:33.872+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:33.865+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 29, in <module>
+    dag = extract_weather_dag()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/extract_weather.py", line 22, in extract_weather_dag
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:25:33.875+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:25:33.875+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:33.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.819 seconds
+[2024-11-25T22:25:43.210+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:43.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:25:43.215+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:43.214+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:43.864+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:43.858+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 30, in <module>
+    dag = extract_weather_dag()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/extract_weather.py", line 22, in extract_weather_dag
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:25:43.867+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:25:43.867+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:43.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.684 seconds
+[2024-11-25T22:25:58.628+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:58.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:25:58.635+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:58.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:59.467+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:25:59.460+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 30, in <module>
+    dag = extract_weather_dag()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/extract_weather.py", line 22, in extract_weather_dag
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:25:59.470+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:25:59.470+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:25:59.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.879 seconds
+[2024-11-25T22:26:30.372+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:26:30.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:26:30.376+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:26:30.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:26:30.996+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:26:30.988+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 30, in <module>
+    dag = extract_weather_dag()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/extract_weather.py", line 22, in extract_weather_dag
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:26:30.998+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:26:30.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:26:31.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.653 seconds
+[2024-11-25T22:27:01.397+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:01.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:27:01.400+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:01.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:01.975+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:01.969+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 30, in <module>
+    dag = extract_weather_dag()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/extract_weather.py", line 22, in extract_weather_dag
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:27:01.977+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:27:01.978+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:01.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.607 seconds
+[2024-11-25T22:27:32.639+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:32.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:27:32.643+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:32.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:33.353+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:33.347+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_weather.py", line 30, in <module>
+    dag = extract_weather_dag()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/extract_weather.py", line 22, in extract_weather_dag
+    ).expand(
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 181, in expand
+    validate_mapping_kwargs(self.operator_class, "expand", mapped_kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py", line 123, in validate_mapping_kwargs
+    raise TypeError(f"{op.__name__}.{func}() got {error}")
+TypeError: WeatherToCSVOperator.expand() got an unexpected keyword argument 'op_kwargs'
+[2024-11-25T22:27:33.356+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/mappedoperator.py:176 UserWarning: Task 'extract_data' was never mapped!
+[2024-11-25T22:27:33.356+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:33.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.747 seconds
+[2024-11-25T22:27:37.523+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:37.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:27:37.527+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:37.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:38.113+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:38.245+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.244+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:extract_weather_dag
+[2024-11-25T22:27:38.257+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.257+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:extract_weather_dag
+[2024-11-25T22:27:38.266+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.265+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:extract_weather_dag
+[2024-11-25T22:27:38.277+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.276+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:extract_weather_dag
+[2024-11-25T22:27:38.287+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.287+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:extract_weather_dag
+[2024-11-25T22:27:38.296+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.295+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:extract_weather_dag
+[2024-11-25T22:27:38.305+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.304+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:extract_weather_dag
+[2024-11-25T22:27:38.306+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:27:38.318+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.318+0000] {dag.py:3262} INFO - Creating ORM DAG for extract_weather_dag
+[2024-11-25T22:27:38.330+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:38.329+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:27:38.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.836 seconds
+[2024-11-25T22:27:52.864+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:52.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:27:52.867+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:52.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:53.698+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:27:53.713+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:53.713+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:27:53.742+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:27:53.742+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:27:53.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.920 seconds
+[2024-11-25T22:28:24.148+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:28:24.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:28:24.153+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:28:24.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:28:24.950+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:28:25.170+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:28:25.169+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:28:25.211+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:28:25.210+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:28:25.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 1.113 seconds
+[2024-11-25T22:28:56.111+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:28:56.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:28:56.115+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:28:56.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:28:56.684+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:28:56.712+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:28:56.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:28:56.736+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:28:56.736+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:28:56.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.654 seconds
+[2024-11-25T22:29:26.892+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:29:26.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:29:26.895+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:29:26.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:29:27.488+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:29:27.517+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:29:27.516+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:29:27.542+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:29:27.541+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:29:27.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.681 seconds
+[2024-11-25T22:29:57.924+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:29:57.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:29:57.927+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:29:57.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:29:58.501+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:29:58.530+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:29:58.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:29:58.556+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:29:58.556+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:29:58.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.660 seconds
+[2024-11-25T22:30:28.766+0000] {processor.py:186} INFO - Started process (PID=310) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:30:28.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:30:28.769+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:30:28.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:30:29.300+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:30:29.328+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:30:29.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:30:29.354+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:30:29.354+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:30:29.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.617 seconds
+[2024-11-25T22:30:59.574+0000] {processor.py:186} INFO - Started process (PID=312) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:30:59.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:30:59.577+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:30:59.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:31:00.127+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:31:00.155+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:31:00.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:31:00.179+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:31:00.179+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:31:00.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.634 seconds
+[2024-11-25T22:31:30.402+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:31:30.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:31:30.406+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:31:30.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:31:31.001+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:31:31.031+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:31:31.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:31:31.056+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:31:31.056+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:31:31.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.684 seconds
+[2024-11-25T22:32:01.206+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:32:01.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:32:01.210+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:32:01.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:32:01.770+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:32:01.798+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:32:01.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:32:01.824+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:32:01.823+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:32:01.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.647 seconds
+[2024-11-25T22:32:32.133+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:32:32.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:32:32.136+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:32:32.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:32:32.770+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:32:32.800+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:32:32.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:32:32.830+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:32:32.830+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:32:32.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.731 seconds
+[2024-11-25T22:33:03.065+0000] {processor.py:186} INFO - Started process (PID=357) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:33:03.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:33:03.068+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:33:03.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:33:03.732+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:33:03.767+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:33:03.767+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:33:03.797+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:33:03.797+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:33:03.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.768 seconds
+[2024-11-25T22:33:34.387+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:33:34.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:33:34.391+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:33:34.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:33:35.044+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:33:35.078+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:33:35.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:33:35.106+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:33:35.105+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:33:35.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.757 seconds
+[2024-11-25T22:34:06.165+0000] {processor.py:186} INFO - Started process (PID=405) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:34:06.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:34:06.167+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:34:06.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:34:06.855+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:34:06.885+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:34:06.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:34:06.915+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:34:06.915+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:34:06.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.783 seconds
+[2024-11-25T22:34:37.233+0000] {processor.py:186} INFO - Started process (PID=425) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:34:37.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:34:37.236+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:34:37.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:34:37.835+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:34:37.866+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:34:37.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:34:37.902+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:34:37.902+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:34:37.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.709 seconds
+[2024-11-25T22:35:08.393+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:35:08.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_weather.py for tasks to queue
+[2024-11-25T22:35:08.397+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:35:08.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:35:09.075+0000] {processor.py:925} INFO - DAG(s) 'extract_weather_dag' retrieved from /opt/airflow/dags/extract_weather.py
+[2024-11-25T22:35:09.109+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:35:09.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T22:35:09.138+0000] {logging_mixin.py:190} INFO - [2024-11-25T22:35:09.138+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_weather_dag to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T22:35:09.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_weather.py took 0.777 seconds

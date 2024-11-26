@@ -1,9 +1,8 @@
-from airflow import DAG
+from airflow.decorators import dag
 from datetime import datetime, timedelta
-import logging
-
-from custom.hook import WeatherAPIHook
 from custom.operator import WeatherToCSVOperator
+from airflow.utils.task_group import TaskGroup
+
 
 default_args = {
     'owner': 'airflow',
@@ -11,27 +10,32 @@ default_args = {
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
+city = ["Moscow", "Paris", "Berlin"]
 
-dag = DAG(
-    'extract_weather',
+@dag(
     default_args=default_args,
-    description='Read API and insert data into csv',
+    description='Read API and insert data into CSV',
     schedule_interval=timedelta(days=1),
     catchup=False
 )
+def extract_weather_dag_for():
 
-def _extract_data(conn_id, city):
-    logger = logging.getLogger(__name__)
-    hook = WeatherAPIHook(conn_id=conn_id)
-    logger.info(f"Writing ratings to {hook.get_weather_data(city=city)}")
+    with TaskGroup('tasks_for') as tasks_for:
+        for i in range(city.__len__()):
+            WeatherToCSVOperator(
+                task_id=f"extract_data_from_{city[i]}",
+                conn_id="weather_api",
+                city=city[i],
+                file_path=f"/opt/airflow/data/{city[i]}_20241126.csv",
+            )
 
+    tasks_for
 
-extract_data = WeatherToCSVOperator(
-    task_id="extract_data",
-    conn_id="weather_api",
-    city="Moscow",
-    file_path="/opt/airflow/data/Moscow_20241126.csv",
-    dag=dag
-)
+dag = extract_weather_dag_for()
 
-extract_data
+# city = ["Moscow", "Paris", "Berlin"],
+# file_path = [
+#     "/opt/airflow/data/Moscow_20241126.csv",
+#     "/opt/airflow/data/Paris_20241126.csv",
+#     "/opt/airflow/data/Berlin_20241126.csv",
+# ]
