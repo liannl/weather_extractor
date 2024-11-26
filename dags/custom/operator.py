@@ -8,9 +8,7 @@ from custom.hook import WeatherAPIHook
 
 class WeatherToCSVOperator(BaseOperator):
     @apply_defaults
-    def __init__(
-            self, conn_id, op_kwargs, **kwargs,
-    ):
+    def __init__(self, conn_id, op_kwargs, **kwargs,):
         super(WeatherToCSVOperator , self).__init__(**kwargs)
 
         self._conn_id = conn_id

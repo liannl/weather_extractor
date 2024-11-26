@@ -1,0 +1,8 @@
+.venv/
+
+dags/__pycache__/
+dags/custom/__pycache__
+
+logs/
+
+.idea
