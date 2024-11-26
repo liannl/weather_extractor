@@ -1,0 +1,23 @@
+[2024-11-25T22:28:24.827+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-25T22:28:24.863+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_weather_dag.extract_data manual__2024-11-25T22:28:04.555700+00:00 map_index=2 [queued]>
+[2024-11-25T22:28:24.879+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_weather_dag.extract_data manual__2024-11-25T22:28:04.555700+00:00 map_index=2 [queued]>
+[2024-11-25T22:28:24.880+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-25T22:28:24.899+0000] {taskinstance.py:2888} INFO - Executing <Mapped(WeatherToCSVOperator): extract_data> on 2024-11-25 22:28:04.555700+00:00
+[2024-11-25T22:28:24.911+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=266) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-25T22:28:24.911+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_weather_dag', 'extract_data', 'manual__2024-11-25T22:28:04.555700+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/extract_weather.py', '--cfg-path', '/tmp/tmphi_fwfm7', '--map-index', '2']
+[2024-11-25T22:28:24.914+0000] {standard_task_runner.py:105} INFO - Job 16: Subtask extract_data
+[2024-11-25T22:28:24.914+0000] {standard_task_runner.py:72} INFO - Started process 275 to run task
+[2024-11-25T22:28:24.935+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-11-25T22:28:24.998+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_weather_dag.extract_data manual__2024-11-25T22:28:04.555700+00:00 map_index=2 [running]> on host ac9b5e0c2e2c
+[2024-11-25T22:28:25.175+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_weather_dag' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-25T22:28:04.555700+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-25T22:28:04.555700+00:00'
+[2024-11-25T22:28:25.178+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-25T22:28:25.182+0000] {operator.py:23} INFO - Fetching weather in Moscow
+[2024-11-25T22:28:25.202+0000] {base.py:84} INFO - Retrieving connection 'weather_api'
+[2024-11-25T22:28:25.455+0000] {operator.py:26} INFO - Create DataFrame
+[2024-11-25T22:28:25.457+0000] {operator.py:29} INFO - Writing weather to /opt/***/data/Berlin_20241126.csv
+[2024-11-25T22:28:25.465+0000] {operator.py:32} INFO - Weather data written to /opt/***/data/Berlin_20241126.csv
+[2024-11-25T22:28:25.483+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-25T22:28:25.484+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_weather_dag, task_id=extract_data, run_id=manual__2024-11-25T22:28:04.555700+00:00, map_index=2, execution_date=20241125T222804, start_date=20241125T222824, end_date=20241125T222825
+[2024-11-25T22:28:25.535+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-25T22:28:25.555+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-25T22:28:25.557+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

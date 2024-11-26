@@ -1,0 +1,24 @@
+[2024-11-26T06:54:24.668+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T06:54:24.694+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_weather_dag.extract_data scheduled__2024-11-25T00:00:00+00:00 map_index=7 [queued]>
+[2024-11-26T06:54:24.705+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_weather_dag.extract_data scheduled__2024-11-25T00:00:00+00:00 map_index=7 [queued]>
+[2024-11-26T06:54:24.706+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-26T06:54:24.721+0000] {taskinstance.py:2888} INFO - Executing <Mapped(WeatherToCSVOperator): extract_data> on 2024-11-25 00:00:00+00:00
+[2024-11-26T06:54:24.729+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=98) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T06:54:24.729+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_weather_dag', 'extract_data', 'scheduled__2024-11-25T00:00:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/extract_weather.py', '--cfg-path', '/tmp/tmprbxu45sw', '--map-index', '7']
+[2024-11-26T06:54:24.730+0000] {standard_task_runner.py:72} INFO - Started process 105 to run task
+[2024-11-26T06:54:24.730+0000] {standard_task_runner.py:105} INFO - Job 45: Subtask extract_data
+[2024-11-26T06:54:24.744+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-11-26T06:54:24.790+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_weather_dag.extract_data scheduled__2024-11-25T00:00:00+00:00 map_index=7 [running]> on host ac9b5e0c2e2c
+[2024-11-26T06:54:24.792+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-11-26T06:54:24.902+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_weather_dag' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-25T00:00:00+00:00'
+[2024-11-26T06:54:24.904+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T06:54:24.907+0000] {operator.py:23} INFO - Fetching weather in Berlin
+[2024-11-26T06:54:24.920+0000] {base.py:84} INFO - Retrieving connection 'weather_api'
+[2024-11-26T06:54:25.056+0000] {operator.py:26} INFO - Create DataFrame
+[2024-11-26T06:54:25.059+0000] {operator.py:29} INFO - Writing weather to /opt/***/data/Paris_20241126.csv
+[2024-11-26T06:54:25.066+0000] {operator.py:32} INFO - Weather data written to /opt/***/data/Paris_20241126.csv
+[2024-11-26T06:54:25.079+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T06:54:25.080+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_weather_dag, task_id=extract_data, run_id=scheduled__2024-11-25T00:00:00+00:00, map_index=7, execution_date=20241125T000000, start_date=20241126T065424, end_date=20241126T065425
+[2024-11-26T06:54:25.106+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T06:54:25.123+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T06:54:25.126+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

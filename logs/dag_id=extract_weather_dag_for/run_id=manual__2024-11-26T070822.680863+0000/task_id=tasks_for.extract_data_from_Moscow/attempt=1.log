@@ -1,0 +1,23 @@
+[2024-11-26T07:08:45.239+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T07:08:45.259+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_weather_dag_for.tasks_for.extract_data_from_Moscow manual__2024-11-26T07:08:22.680863+00:00 [queued]>
+[2024-11-26T07:08:45.270+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_weather_dag_for.tasks_for.extract_data_from_Moscow manual__2024-11-26T07:08:22.680863+00:00 [queued]>
+[2024-11-26T07:08:45.271+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-26T07:08:45.288+0000] {taskinstance.py:2888} INFO - Executing <Task(WeatherToCSVOperator): tasks_for.extract_data_from_Moscow> on 2024-11-26 07:08:22.680863+00:00
+[2024-11-26T07:08:45.297+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_weather_dag_for', 'tasks_for.extract_data_from_Moscow', 'manual__2024-11-26T07:08:22.680863+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/extract_weather.py', '--cfg-path', '/tmp/tmp8vh1d1gn']
+[2024-11-26T07:08:45.297+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=354) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T07:08:45.299+0000] {standard_task_runner.py:105} INFO - Job 70: Subtask tasks_for.extract_data_from_Moscow
+[2024-11-26T07:08:45.300+0000] {standard_task_runner.py:72} INFO - Started process 361 to run task
+[2024-11-26T07:08:45.315+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-11-26T07:08:45.358+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_weather_dag_for.tasks_for.extract_data_from_Moscow manual__2024-11-26T07:08:22.680863+00:00 [running]> on host ac9b5e0c2e2c
+[2024-11-26T07:08:45.460+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_weather_dag_for' AIRFLOW_CTX_TASK_ID='tasks_for.extract_data_from_Moscow' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T07:08:22.680863+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T07:08:22.680863+00:00'
+[2024-11-26T07:08:45.461+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T07:08:45.463+0000] {operator.py:23} INFO - Fetching weather in Moscow
+[2024-11-26T07:08:45.477+0000] {base.py:84} INFO - Retrieving connection 'weather_api'
+[2024-11-26T07:08:45.599+0000] {operator.py:26} INFO - Create DataFrame
+[2024-11-26T07:08:45.602+0000] {operator.py:29} INFO - Writing weather to /opt/***/data/Moscow_20241126.csv
+[2024-11-26T07:08:45.621+0000] {operator.py:32} INFO - Weather data written to /opt/***/data/Moscow_20241126.csv
+[2024-11-26T07:08:45.636+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T07:08:45.641+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_weather_dag_for, task_id=tasks_for.extract_data_from_Moscow, run_id=manual__2024-11-26T07:08:22.680863+00:00, execution_date=20241126T070822, start_date=20241126T070845, end_date=20241126T070845
+[2024-11-26T07:08:45.676+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T07:08:45.706+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T07:08:45.709+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
